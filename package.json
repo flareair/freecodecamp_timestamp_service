@@ -1,10 +1,10 @@
 {
   "name": "angular-blog",
   "version": "0.0.0",
-  "description": "Blog using angular, express and mongodb",
+  "description": "timestamp service",
   "main": "app.js",
   "scripts": {
-    "server": "webpack-dev-server --content-base public/ --history-api-fallback --inline --progress"
+    "server": "nodemon ./bin/www"
   },
   "author": "flare",
   "license": "MIT",
